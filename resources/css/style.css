@@ -1,0 +1,153 @@
+/* GENERAL STYLING */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  text-align: left;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding: 10px;
+}
+
+a {
+  color: white;
+  padding: 10px;
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+  background-color: #133E6E;
+}
+
+header img {
+  width: 150px;
+  padding-left: 100px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  margin-right: 20px;
+}
+
+/* MAIN CONTENT SECTION */
+
+.main {
+  padding-top: 90px;
+}
+
+#featured {
+  background-image: url('../images/landing_page_image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 46rem;
+  align-items: center;
+  color: white;
+}
+
+.featured-content {
+  width: 1200px;
+  margin: auto;
+}
+
+.featured-content h1 {
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
+
+.featured-content p {
+  max-width: 500px;
+}
+
+.featured-training {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 280px;
+  width: 600px;
+  padding: 1em 1em;
+  margin: 1em 1em;
+  background-color: #133E6E;
+  opacity: 1.0;
+}
+
+.cta-button {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.contact-us a {
+  background-color: #3fa7f0;
+  color: white;
+  padding: 1em 1.5em;
+  margin: 1em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*PORTFOLIO SECTION*/
+#portfolio {
+  width: 1200px;
+  margin: auto;
+  height: 25rem;
+  color: white;
+}
+
+#portfolio h2 {
+  color: #133E6E;
+}
+
+.training-item {
+  width: 260px;
+  padding: 1em 1em;
+  margin: 1em 1em;
+  background-color: #133E6E;
+  opacity: 1.0;
+}
+
+.learn-more {
+  text-align: center;
+}
+
+.learn-more a {
+  background-color: #3fa7f0;
+  color: white;
+  padding: 1em 1.5em;
+  margin: 1em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* FOOTER */
+footer {
+  background-color: #133E6E;
+  text-align: center;
+  color: white;
+}
+
+footer p {
+  padding: 1em 1em;
+}
